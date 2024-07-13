@@ -7,7 +7,7 @@ def index():
 
 @app.route("/welcome")
 def welcome():
-    return "welcome to Flask"
+    return "welcome to Flask application"
 
 @app.route("/Login")
 def Login():
